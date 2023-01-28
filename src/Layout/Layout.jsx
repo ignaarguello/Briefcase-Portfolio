@@ -1,6 +1,7 @@
 import React from 'react'
 import './Layout.css'
 import Navbar from '../components/Navbar/Navbar'
+import Footer from '../components/Footer/Footer'
 
 export default function Layout(props) {
   return (
@@ -9,6 +10,7 @@ export default function Layout(props) {
         <div id='container-childrenProps__layout'>
             {props.children}
         </div>
+        <Footer/>
     </div>
   )
 }
