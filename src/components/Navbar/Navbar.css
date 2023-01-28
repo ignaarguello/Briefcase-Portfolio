@@ -1,0 +1,15 @@
+@media screen and (min-width:320px) {
+    #container-general__navbar{
+        border: 1px solid red;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .item-nav__navbar{
+        color: white;
+        font-size: 17px;
+    }
+}
