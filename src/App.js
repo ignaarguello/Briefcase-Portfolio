@@ -1,10 +1,12 @@
 import './App.css';
+import Layout from './Layout/Layout'
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-   
-    </div>
+    <Layout>
+
+    </Layout>
   );
 }
 
