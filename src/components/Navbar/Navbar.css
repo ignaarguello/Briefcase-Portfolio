@@ -6,7 +6,7 @@
     height: 10vh;
     display: flex;
     align-items: center;
-    padding: 2px;
+    padding: 7px;
     background-color: black;
   }
 
@@ -24,6 +24,7 @@
     font-size: 14px;
     font-family: var(--fontRaleway);
     cursor: pointer;
+    text-decoration: none;
   }
 
   #logo-portfolio__navbar {
