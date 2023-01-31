@@ -20,7 +20,7 @@
   }
 }
 
-#container-grid-titulos__home {
+/* #container-grid-titulos__home {
   margin-top: 5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -41,4 +41,4 @@
 
 #titulo-fullstack__home {
   font-size: 25px;
-}
+} */
