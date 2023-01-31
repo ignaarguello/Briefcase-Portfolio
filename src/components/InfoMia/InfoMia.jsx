@@ -1,5 +1,6 @@
 import React from 'react'
 import './InfoMia.css'
+import { HiArrowDown } from "react-icons/hi";
 
 export default function InfoMia() {
     return (
@@ -16,6 +17,9 @@ export default function InfoMia() {
                 Soy amante del desarrollo de Software, me fascina crear interfacez
                 y experiencias de usuario óptimas, modernas e innovadoras.
             </p>
+            <div id='container-flecha__infoMia'>
+                <HiArrowDown id='flecha-abajo' className='animate__animated animate__bounce animate__slower animate__infinite' />
+            </div>
         </div>
     )
 }

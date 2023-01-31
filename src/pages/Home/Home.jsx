@@ -11,7 +11,7 @@ export default function Home() {
       <div id='container-grid-titulos__home'>
         <div id='container-titulos__home'>
           <h2 id='titulo-ignacio__home'>_Argüello Ignacio</h2>
-          <h4 id='titulo-fullstack__home'>Full Stack Developer MERN - Mobile and Web</h4>
+          <h4 id='titulo-fullstack__home'>Full Stack Developer MERN - Web and Mobile</h4>
         </div>
         <PhotosGrid />
       </div>
