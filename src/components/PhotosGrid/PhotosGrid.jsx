@@ -3,6 +3,9 @@ import './PhotosGrid.css'
 import 'animate.css';
 
 export default function PhotosGrid() {
+
+
+
   return (
     <div id='container-general__photosGrid'>
       <div id='container-vertical__photosGrid' className='animate__animated animate__fadeIn animate__delay-2s'>
