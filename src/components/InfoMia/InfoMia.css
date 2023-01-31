@@ -8,10 +8,22 @@
         font-family: var(--fontRaleway);
         padding: 10px;
         text-align: center;
-        font-size: 19px;
+        font-size: 19.5px;
         letter-spacing: 1px;
         line-height: 25px;
         margin: 1rem 0;
-        color: rgb(143, 140, 140);
+        color: rgb(199, 189, 189);
+    }
+
+    #container-flecha__infoMia{
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+
+    #flecha-abajo{
+        height: 90%;
+        width: 15%;
+        color: rgb(199, 189, 189);
     }
 }
