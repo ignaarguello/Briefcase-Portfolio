@@ -18,7 +18,19 @@
   #container-home-page__home {
     padding: 7px;
   }
+
+  #titulo-acerca__home{
+    color: white;
+    font-family: var(--fontRaleway);
+    text-align: center;
+    margin: 2rem 0;
+  }
 }
+
+
+
+
+
 
 /* #container-grid-titulos__home {
   margin-top: 5rem;
