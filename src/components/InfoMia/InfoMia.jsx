@@ -6,7 +6,7 @@ export default function InfoMia() {
     return (
         <div id='container-general__infoMia'>
             <p className='texto-about__infoMia'>
-                Apasionado por la tecnología y su impacto de la vida cotidiana
+                Apasionado por la tecnología y su impacto en la vida cotidiana
                 y en el mundo.
             </p>
             <p className='texto-about__infoMia'>
