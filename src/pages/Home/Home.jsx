@@ -4,6 +4,7 @@ import PhotosGrid from '../../components/PhotosGrid/PhotosGrid'
 import 'animate.css';
 import BarraIzquierda from '../../components/BarraIzquierda/BarraIzquierda';
 import InfoMia from '../../components/InfoMia/InfoMia'
+import Skills from '../../components/Skills/Skills';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <BarraIzquierda />
       <h2 id='titulo-acerca__home'>- Acerca de mí -</h2>
       <InfoMia/>
+      <Skills/>
     </div>
   )
 }
