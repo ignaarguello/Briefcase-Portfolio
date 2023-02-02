@@ -18,8 +18,8 @@ export default function Home() {
       </div>
       <BarraIzquierda />
       <h2 id='titulo-acerca__home'>- Acerca de mí -</h2>
-      <InfoMia/>
-      <Skills/>
+      <InfoMia />
+      <Skills />
     </div>
   )
 }

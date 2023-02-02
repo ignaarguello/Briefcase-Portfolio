@@ -9,7 +9,7 @@ export default function Navbar() {
       <div id='container-refs__navbar'>
         <Link to='/' className="item-nav__navbar">Home</Link>
         <Link to='/about' className="item-nav__navbar">About me</Link>
-        <Link to='/more' className="item-nav__navbar">+More</Link>
+        <Link to='/projects' className="item-nav__navbar">Projects</Link>
       </div>
     </div>
   )
