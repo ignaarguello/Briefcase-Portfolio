@@ -1,13 +1,28 @@
-#container-general__Skills {
-  border: 2px solid seagreen;
-  margin: 2.5rem 1.5rem;
-  padding: 1rem;
-  min-height: 20vh;
-}
+@media screen and (min-width: 320px) {
+  #container-general__Skills {
+    border: 2px solid seagreen;
+    margin: 2.5rem 1.5rem;
+    padding: 1rem;
+    min-height: 20vh;
+  }
 
-#titulo-stack__Skills{
+  #titulo-stack__Skills {
     font-family: var(--fontRaleway);
     text-align: center;
     color: white;
-    font-size: 22px;
+    font-size: 23px;
+    margin-top: 1rem;
+  }
+
+  #container-images__Skills {
+    margin: .8rem 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .image-skill__skills{
+    width: 40%;
+    margin: 1rem 0;
+  }
 }
