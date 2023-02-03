@@ -39,6 +39,10 @@
     margin-left: 1.5rem;
     margin-top: 0.5rem;
   }
+
+  #titulo-acerca__home {
+    font-size: 30px;
+  }
 }
 
 /* #container-grid-titulos__home {
