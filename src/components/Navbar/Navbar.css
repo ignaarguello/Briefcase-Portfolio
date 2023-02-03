@@ -38,3 +38,17 @@
     cursor: pointer;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .item-nav__navbar {
+    font-size: 20px;
+  }
+
+  #logo-portfolio__navbar {
+    width: 40%;
+    height: 90%;
+    object-fit: contain;
+    cursor: pointer;
+  }
+}
+
