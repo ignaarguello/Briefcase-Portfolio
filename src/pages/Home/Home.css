@@ -19,7 +19,7 @@
     padding: 7px;
   }
 
-  #titulo-acerca__home{
+  #titulo-acerca__home {
     color: white;
     font-family: var(--fontRaleway);
     text-align: center;
@@ -27,10 +27,19 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  #titulo-ignacio__home {
+    margin-left: 1.5rem;
+    margin-top: 8rem;
+    font-size: 22px;
+  }
 
-
-
-
+  #titulo-fullstack__home {
+    font-size: 20px;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+  }
+}
 
 /* #container-grid-titulos__home {
   margin-top: 5rem;

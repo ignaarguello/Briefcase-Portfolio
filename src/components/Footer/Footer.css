@@ -40,7 +40,8 @@
   .titulo-desarrollador__footer {
     color: gray;
     font-family: var(--fontRaleway);
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
+    margin-bottom: 10px;
   }
 }
