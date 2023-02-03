@@ -46,7 +46,7 @@
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 768px) {
   .anchor-footer__footer {
     font-size: 23px;
     padding: 15px;
