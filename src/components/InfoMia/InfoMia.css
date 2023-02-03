@@ -27,3 +27,33 @@
         color: rgb(243, 240, 240);
     }
 }
+
+@media screen and (min-width:320px) {
+    #container-general__infoMia{
+        margin: 1rem 3rem;
+        padding: 15px;
+    }
+
+    .texto-about__infoMia{
+        font-family: var(--fontRaleway);
+        padding: 10px;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1px;
+        line-height: 35px;
+        margin: 1rem 0;
+        color: rgb(192, 188, 188);
+    }
+
+    #container-flecha__infoMia{
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+
+    #flecha-abajo{
+        height: 90%;
+        width: 15%;
+        color: rgb(243, 240, 240);
+    }
+}
