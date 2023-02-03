@@ -25,6 +25,19 @@
     text-align: center;
     margin: 2rem 0;
   }
+
+  #button-descargarCV__home{
+    border: 1px solid gray;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 20px;
+    background: none;
+    color: white;
+    font-family: var(--fontRaleway);
+    width: 40%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -45,19 +58,37 @@
   }
 }
 
-/* #container-grid-titulos__home {
-  margin-top: 5rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 3rem;
+@media screen and (min-width: 1024px) {
+  #container-grid-titulos__home {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+  }
+  
+  #container-titulos__home {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 8rem;
+  }
+
+  #button-descargarCV__home{
+    border: 1px solid gray;
+    margin-top: 2rem;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 20px;
+    background: none;
+    color: white;
+    font-family: var(--fontRaleway);
+    width: 28%;
+  }
 }
 
-#container-titulos__home {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+/* 
+
 
 #titulo-ignacio__home {
   font-size: 30px;

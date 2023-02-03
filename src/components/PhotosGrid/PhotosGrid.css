@@ -46,3 +46,10 @@
     padding: 1rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  #container-general__photosGrid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70vh;
+  }
+}
