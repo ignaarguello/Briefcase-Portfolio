@@ -14,7 +14,7 @@ export default function InfoMia() {
                 detallista, comprometido, pero sobre todo optimista.
             </p>
             <p className='texto-about__infoMia'>
-                Soy amante del desarrollo de Software, me fascina crear interfacez
+                Soy amante del desarrollo de Software, me fascina crear interfaces
                 y experiencias de usuario óptimas, modernas e innovadoras.
             </p>
             <div id='container-flecha__infoMia'>

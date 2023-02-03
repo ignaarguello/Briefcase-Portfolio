@@ -12,7 +12,7 @@
         letter-spacing: 1px;
         line-height: 25px;
         margin: 1rem 0;
-        color: rgb(230, 224, 224);
+        color: rgb(192, 188, 188);
     }
 
     #container-flecha__infoMia{
@@ -24,6 +24,6 @@
     #flecha-abajo{
         height: 90%;
         width: 15%;
-        color: rgb(199, 189, 189);
+        color: rgb(243, 240, 240);
     }
 }
