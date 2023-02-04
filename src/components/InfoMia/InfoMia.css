@@ -57,3 +57,24 @@
         color: rgb(243, 240, 240);
     }
 }
+
+@media screen and (min-width:1024px) {
+    #container-general__infoMia{
+        margin: 1rem 12rem;
+    }
+
+    .texto-about__infoMia{
+        font-size: 19px;
+    }
+
+    #container-flecha__infoMia{
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+
+    #flecha-abajo{
+        width: 6%;
+        color: rgb(243, 240, 240);
+    }
+}

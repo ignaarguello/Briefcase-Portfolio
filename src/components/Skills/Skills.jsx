@@ -27,15 +27,17 @@ export default function Skills() {
     return (
         <div id='container-general__Skills'>
             <h2 id='titulo-stack__Skills' data-aos="zoom-in" data-aos-once="true" data-aos-duration="1000">- Stack de Tecnologías -</h2>
-            <div id='container-images__Skills' data-aos="fade-down" data-aos-once="true" data-aos-duration="2000">
-                {imagesSkills.map((element, index) =>
-                    <img className='image-skill__skills' src={element} alt="" key={index} />
-                )}
-            </div>
-            <div id='container-images__Skills2' data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
-                {imagesReactNode.map((element, index) =>
-                    <img className='image-skill__skills' src={element} alt="" key={index} />
-                )}
+            <div id='container-skillsImages__skills'>
+                <div id='container-images__Skills' data-aos="fade-down" data-aos-once="true" data-aos-duration="2000">
+                    {imagesSkills.map((element, index) =>
+                        <img className='image-skill__skills' src={element} alt="" key={index} />
+                    )}
+                </div>
+                <div id='container-images__Skills2' data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+                    {imagesReactNode.map((element, index) =>
+                        <img className='image-skill__skills' src={element} alt="" key={index} />
+                    )}
+                </div>
             </div>
         </div>
     )
