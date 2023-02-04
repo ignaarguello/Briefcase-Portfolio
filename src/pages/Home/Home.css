@@ -60,12 +60,12 @@
 
 @media screen and (min-width: 1024px) {
   #container-grid-titulos__home {
-    margin-top: 5rem;
+    margin-top: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 1rem;
+    padding: 3.5rem;
   }
-  
+
   #container-titulos__home {
     display: flex;
     flex-direction: column;
@@ -85,16 +85,14 @@
     font-family: var(--fontRaleway);
     width: 28%;
   }
+
+  #titulo-ignacio__home {
+    font-size: 28px;
+  }
+
+  #titulo-fullstack__home {
+    font-size: 24px;
+    margin-top: 1.5rem;
+  }
 }
 
-/* 
-
-
-#titulo-ignacio__home {
-  font-size: 30px;
-  letter-spacing: 1.5px;
-}
-
-#titulo-fullstack__home {
-  font-size: 25px;
-} */
