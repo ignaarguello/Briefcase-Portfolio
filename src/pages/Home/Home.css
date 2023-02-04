@@ -84,6 +84,13 @@
     color: white;
     font-family: var(--fontRaleway);
     width: 28%;
+    cursor: pointer;
+    transition: .6s ease;
+  }
+
+  #button-descargarCV__home:hover{
+    background-color: whitesmoke;
+    color: black;
   }
 
   #titulo-ignacio__home {
