@@ -9,9 +9,14 @@
 
 @media screen and (min-width: 768px) {
   #barra-izquierda {
-    width: 0px;
-    border: 2.8px solid #911d1b;
     margin: 2rem 2.8rem;
     height: 11rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #barra-izquierda {
+    margin: 2rem 7rem;
+    height: 10rem;
   }
 }
