@@ -42,6 +42,7 @@
 @media screen and (min-width: 768px) {
   .item-nav__navbar {
     font-size: 20px;
+    position: relative;
   }
 
   #logo-portfolio__navbar {
@@ -52,3 +53,29 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .item-nav__navbar {
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+  }
+  .item-nav__navbar::after {
+    content: "";
+    position: absolute;
+    height: 2.2px;
+    width: 100%;
+    background-color: rgb(138, 15, 15);
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transform-origin: right;
+    transform: scale(0);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .item-nav__navbar:hover::after {
+    transform-origin: left;
+    transform: scale(1);
+  }
+}
