@@ -2,7 +2,6 @@ import React from 'react'
 import './InfoMia.css'
 import { HiArrowDown } from "react-icons/hi";
 
-
 export default function InfoMia() {
     return (
         <div id='container-general__infoMia'>
