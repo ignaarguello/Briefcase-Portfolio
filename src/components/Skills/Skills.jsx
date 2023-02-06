@@ -22,8 +22,6 @@ export default function Skills() {
         'https://cdn.icon-icons.com/icons2/112/PNG/512/python_18894.png',
     ]
 
-
-
     return (
         <div id='container-general__Skills'>
             <h2 id='titulo-stack__Skills' data-aos="zoom-in" data-aos-once="true" data-aos-duration="1000">- Stack de Tecnologías -</h2>
