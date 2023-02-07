@@ -1,0 +1,8 @@
+#container-general__layout{
+    display: flex;
+    flex-direction: column;
+}
+
+#container-childrenProps__layout{
+    margin-top: 4.5rem;
+}

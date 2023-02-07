@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 320px) {
   #container-general__navbar {
-    /* border: 1px solid red; */
+   /*  border: 1px solid red; */
     height: 10vh;
     display: flex;
     align-items: center;
