@@ -8,7 +8,7 @@
     font-family: var(--fontRaleway);
     font-size: 18px;
     margin-left: 1.1rem;
-    margin-top: 6rem;
+    margin-top: 2rem;
   }
 
   #titulo-fullstack__home {
@@ -49,12 +49,12 @@
 @media screen and (min-width: 768px) {
   #titulo-ignacio__home {
     margin-left: 1.5rem;
-    margin-top: 8rem;
-    font-size: 25px;
+    margin-top: 3rem;
+    font-size: 22px;
   }
 
   #titulo-fullstack__home {
-    font-size: 25px;
+    font-size: 21px;
     margin-left: 1.5rem;
     margin-top: 0.5rem;
   }

@@ -40,8 +40,12 @@
   }
 
   .image-skill__skills {
-    width: 40%;
+    width: 15%;
     margin: 1rem 0;
+  }
+
+  #container-images__Skills {
+    margin-top: 4rem;
   }
 }
 

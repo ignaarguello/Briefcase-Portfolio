@@ -34,7 +34,7 @@ export default function Skills() {
                     )}
                 </div>
             <div id='container-skillsImages__skills'>
-                <div id='container-images__Skills' data-aos="fade-down" data-aos-once="true" data-aos-duration="2000">
+                <div id='container-images__Skills' data-aos="zoom-out-up" data-aos-once="true" data-aos-duration="2000">
                     {imagesSkills.map((element, index) =>
                         <img className='image-skill__skills' src={element} alt="" key={index} />
                     )}
