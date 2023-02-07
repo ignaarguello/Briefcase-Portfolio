@@ -61,3 +61,31 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  #container-general__footer {
+    margin-top: 1rem;
+  }
+
+  #container-textos__footer {
+    margin-top: 2rem;
+  }
+
+  .anchor-footer__footer {
+    font-size: 18px;
+    padding: 12px;
+    transition: 0.7s ease;
+  }
+
+  .anchor-footer__footer:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .titulo-ignacio__footer {
+    font-size: 20px;
+  }
+
+  .titulo-desarrollador__footer {
+    font-size: 20px;
+  }
+}
