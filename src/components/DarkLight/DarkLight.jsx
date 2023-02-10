@@ -9,21 +9,28 @@ export default function DarkLight() {
 
     const change = () => {
         const body = document.body
+        const titulo_ignacio = document.querySelector('#titulo-ignacio__home')
+
         if (appliedChanges === false) {
             setAppliedChanges(true)
+            /* Body */
             body.classList.remove('bg-body__black')
             body.classList.add('bg-body__white')
-            console.log(appliedChanges)
+            /* Textos */
+            titulo_ignacio.classList.remove('text-white')
+            titulo_ignacio.classList.add('text-black')
         }
 
         if (appliedChanges === true) {
             setAppliedChanges(false)
+            /* Body */
             body.classList.remove('bg-body__white')
             body.classList.add('bg-body__black')
-            console.log(appliedChanges)
+            /* Textos */
+            titulo_ignacio.classList.remove('text-black')
+            titulo_ignacio.classList.add('text-white')
         }
     }
-
 
     return (
         <div className="check" >
