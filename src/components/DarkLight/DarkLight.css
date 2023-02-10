@@ -110,3 +110,13 @@
 .bg-body__black {
   background-color: black;
 }
+
+/* Text */
+
+.text-white {
+  color: white !important;
+}
+
+.text-black {
+  color: black !important;
+}
