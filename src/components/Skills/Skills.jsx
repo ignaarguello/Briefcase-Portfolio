@@ -12,17 +12,17 @@ export default function Skills() {
     
 
     const imagesSkills = [
-        'https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png',
-        'https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png',
-        'https://cdn.icon-icons.com/icons2/2108/PNG/512/javascript_icon_130900.png',
-        'https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_tailwind_icon_130128.png',
-        'https://cdn.icon-icons.com/icons2/2415/PNG/512/bootstrap_plain_logo_icon_146619.png',
+        '../images/html.png',
+        '../images/css.png',
+        '../images/js.png',
+        '../images/tailwind.png',
+        '../images/boostrap.png',
     ]
 
     const imagesReactNode = [
-        'https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_node_icon_130301.png',
-        'https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_wordmark_logo_icon_146375.png',
-        'https://cdn.icon-icons.com/icons2/112/PNG/512/python_18894.png',
+        '../images/node.png',
+        '../images/react.png',
+        '../images/py.png',
     ]
 
     return (

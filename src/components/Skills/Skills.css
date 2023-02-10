@@ -47,6 +47,10 @@
   #container-images__Skills {
     margin-top: 4rem;
   }
+
+  #container-images__Skills {
+    justify-content: space-between;
+  }
 }
 
 @media screen and (min-width: 1024px) {

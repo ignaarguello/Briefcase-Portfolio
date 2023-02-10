@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom';
+import DarkLight from '../DarkLight/DarkLight'
 
 
 export default function Navbar() {
@@ -11,6 +12,7 @@ export default function Navbar() {
         <Link to='/' className="item-nav__navbar">Home</Link>
         <Link to='/about' className="item-nav__navbar">About me</Link>
         <Link to='/projects' className="item-nav__navbar">Projects</Link>
+        <DarkLight/>
       </div>
     </div>
   )
