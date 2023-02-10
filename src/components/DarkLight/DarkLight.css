@@ -120,3 +120,11 @@
 .text-black {
   color: black !important;
 }
+
+/* Text and Background */
+
+.text-light__bg-dark{
+  color: white !important;
+  background-color: black !important;
+  border: none !important;
+}

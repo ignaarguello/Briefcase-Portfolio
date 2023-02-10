@@ -10,6 +10,7 @@ export default function DarkLight() {
     const change = () => {
         const body = document.body
         const titulo_ignacio = document.querySelector('#titulo-ignacio__home')
+        const buttonCV = document.querySelector('#button-descargarCV__home')
 
         if (appliedChanges === false) {
             setAppliedChanges(true)
@@ -19,6 +20,8 @@ export default function DarkLight() {
             /* Textos */
             titulo_ignacio.classList.remove('text-white')
             titulo_ignacio.classList.add('text-black')
+            /* Button */
+            buttonCV.classList.add('text-light__bg-dark')
         }
 
         if (appliedChanges === true) {
@@ -29,6 +32,8 @@ export default function DarkLight() {
             /* Textos */
             titulo_ignacio.classList.remove('text-black')
             titulo_ignacio.classList.add('text-white')
+            /* Button */
+            buttonCV.classList.remove('text-light__bg-dark')
         }
     }
 
