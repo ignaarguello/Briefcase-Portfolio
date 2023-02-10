@@ -100,3 +100,11 @@
   line-height: 0;
  }
  
+
+ .bg-body__white{
+   background-color: white;
+ }
+
+ .bg-body__black{
+  background-color: black;
+}
