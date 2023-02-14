@@ -2,7 +2,6 @@ import React from 'react'
 import './DarkLight.css'
 import { useState } from 'react'
 
-
 export default function DarkLight() {
 
     let [appliedChanges, setAppliedChanges] = useState(false)
