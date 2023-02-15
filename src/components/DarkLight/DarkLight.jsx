@@ -1,10 +1,18 @@
 import React from 'react'
 import './DarkLight.css'
 import { useState } from 'react'
+import homeActions from '../../redux/actions/homeActions'
+import { useDispatch, useSelector } from 'react-redux'
 
 export default function DarkLight() {
 
-    let [appliedChanges, setAppliedChanges] = useState(false)
+    const { change_false, change_true } = homeActions
+    const { theme } = useSelector(store => store.home)
+    const dispatch = useDispatch()
+
+    console.log(theme)
+
+    /* let [appliedChanges, setAppliedChanges] = useState(false) */
 
     const change = () => {
         const body = document.body
@@ -16,8 +24,8 @@ export default function DarkLight() {
         const texto_3 = document.querySelector('#text-3')
 
 
-        if (appliedChanges === false) {
-            setAppliedChanges(true)
+        if (theme === false) {
+            dispatch(change_true())
             /* Body */
             body.classList.remove('bg-body__black')
             body.classList.add('bg-body__white')
@@ -36,11 +44,11 @@ export default function DarkLight() {
             texto_2.classList.add('text-black', 'font-lg')
             texto_3.classList.remove('text-white')
             texto_3.classList.add('text-black', 'font-lg')
-            console.log(appliedChanges)
+            console.log(theme)
         }
 
-        if (appliedChanges === true) {
-            setAppliedChanges(false)
+        if (theme === true) {
+            dispatch(change_false())
             /* Body */
             body.classList.remove('bg-body__white')
             body.classList.add('bg-body__black')
@@ -59,7 +67,7 @@ export default function DarkLight() {
             texto_2.classList.add('text-white')
             texto_3.classList.remove('text-black', 'font-lg')
             texto_3.classList.add('text-white')
-            console.log(appliedChanges)
+            console.log(theme)
         }
     }
 
