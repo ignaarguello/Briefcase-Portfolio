@@ -121,6 +121,10 @@
   color: black !important;
 }
 
+.font-lg{
+  font-size: 25px !important;
+}
+
 /* Text and Background */
 
 .text-light__bg-dark{
