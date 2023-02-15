@@ -9,6 +9,7 @@ import { useState, useEffect } from 'react'
 
 export default function Home() {
 
+
   return (
     <div id='container-home-page__home' className='animate__animated animate__fadeIn animate__delay-1s'>
       <div id='container-grid-titulos__home'>
