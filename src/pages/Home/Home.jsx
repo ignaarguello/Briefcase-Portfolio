@@ -5,10 +5,9 @@ import 'animate.css';
 import BarraIzquierda from '../../components/BarraIzquierda/BarraIzquierda';
 import InfoMia from '../../components/InfoMia/InfoMia'
 import Skills from '../../components/Skills/Skills';
-import { useState, useEffect } from 'react'
+
 
 export default function Home() {
-
 
   return (
     <div id='container-home-page__home' className='animate__animated animate__fadeIn animate__delay-1s'>
