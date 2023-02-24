@@ -10,9 +10,8 @@ export default function DarkLight() {
     const { theme } = useSelector(store => store.home)
     const dispatch = useDispatch()
 
-    console.log(theme)
+    console.log('theme global', theme)
 
-    /* let [appliedChanges, setAppliedChanges] = useState(false) */
 
     const change = () => {
         const body = document.body
@@ -26,6 +25,7 @@ export default function DarkLight() {
 
         if (theme === false) {
             dispatch(change_true())
+            /* setAppliedChanges(true) */
             /* Body */
             body.classList.remove('bg-body__black')
             body.classList.add('bg-body__white')
@@ -44,11 +44,12 @@ export default function DarkLight() {
             texto_2.classList.add('text-black', 'font-lg')
             texto_3.classList.remove('text-white')
             texto_3.classList.add('text-black', 'font-lg')
-            console.log(theme)
+            console.log('theme desde botoon', theme)
         }
 
         if (theme === true) {
             dispatch(change_false())
+            /* setAppliedChanges(true) */
             /* Body */
             body.classList.remove('bg-body__white')
             body.classList.add('bg-body__black')
@@ -67,7 +68,7 @@ export default function DarkLight() {
             texto_2.classList.add('text-white')
             texto_3.classList.remove('text-black', 'font-lg')
             texto_3.classList.add('text-white')
-            console.log(theme)
+            console.log('theme desde botoon', theme)
         }
     }
 
