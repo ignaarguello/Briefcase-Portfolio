@@ -1,18 +1,17 @@
-import { createAction } from '@reduxjs/toolkit'
+import {createAction } from '@reduxjs/toolkit'
 
 
 const change_false = createAction('change_false', () => {
-    const res = false
+
     return {
-        res
+        payload: false
     }
 })
 
 
 const change_true = createAction('change_true', () => {
-    const res = true
     return {
-        res
+        payload: true
     }
 })
 

@@ -9,7 +9,6 @@ import Skills from '../../components/Skills/Skills';
 import homeActions from '../../redux/actions/homeActions'
 import { useSelector } from 'react-redux'
 
-
 export default function Home() {
   return (
     <div id='container-home-page__home' className='animate__animated animate__fadeIn animate__delay-1s'>

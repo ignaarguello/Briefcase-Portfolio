@@ -132,3 +132,7 @@
   background-color: black !important;
   border: none !important;
 }
+
+.text-light__bg-dark:hover{
+  width: 45% !important;
+}
