@@ -18,7 +18,7 @@ export default function InfoMia() {
                 detallista, comprometido, pero sobre todo optimista.
             </p>
             <div id='container-flecha__infoMia'>
-                <HiArrowDown id='flecha-abajo' className='animate__animated animate__bounce animate__slower animate__infinite' />
+                <HiArrowDown id='flecha-abajo' className='animate__animated animate__bounce animate__slower animate__infinite flecha-dark' />
             </div>
         </div>
     )
