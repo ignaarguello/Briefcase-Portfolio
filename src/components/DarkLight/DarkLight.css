@@ -130,9 +130,23 @@
 .text-light__bg-dark{
   color: white !important;
   background-color: black !important;
-  border: none !important;
 }
 
 .text-light__bg-dark:hover{
   width: 40% !important;
+}
+
+.button-light__bg-dark{
+  color: white !important;
+  background-color: black !important;
+}
+
+/* Flecha */
+
+.flecha-black{
+  color: rgb(26, 23, 23) !important;
+}
+
+.flecha-white{
+  color: rgb(209, 202, 202) !important;
 }

@@ -19,6 +19,9 @@ export default function DarkLight() {
         const texto_1 = document.querySelector('#text-1')
         const texto_2 = document.querySelector('#text-2')
         const texto_3 = document.querySelector('#text-3')
+        const flecha = document.querySelector('#flecha-abajo')
+        const titulo_stack_skills = document.querySelector('#titulo-stack__Skills')
+        const buttons_footer = document.querySelectorAll('.anchor-footer__footer')
 
         if (theme === false) {
             dispatch(change_true())
@@ -40,6 +43,14 @@ export default function DarkLight() {
             texto_2.classList.add('text-black', 'font-lg')
             texto_3.classList.remove('text-white')
             texto_3.classList.add('text-black', 'font-lg')
+            /* Flecha */
+            flecha.classList.remove('flecha-white')
+            flecha.classList.add('flecha-black')
+            /* Skills */
+            titulo_stack_skills.classList.remove('text-white')
+            titulo_stack_skills.classList.add('text-black')
+            /* Buttons Footer */
+            buttons_footer.forEach(e => e.classList.add('button-light__bg-dark'))
         }
 
         if (theme === true) {
@@ -62,6 +73,14 @@ export default function DarkLight() {
             texto_2.classList.add('text-white')
             texto_3.classList.remove('text-black', 'font-lg')
             texto_3.classList.add('text-white')
+            /* Flecha */
+            flecha.classList.remove('flecha-black')
+            flecha.classList.add('flecha-white')
+            /* Skills */
+            titulo_stack_skills.classList.remove('text-black')
+            titulo_stack_skills.classList.add('text-white')
+            /* Buttons Footer */
+            buttons_footer.forEach(e => e.classList.add('button-light__bg-dark'))
         }
     }
 
