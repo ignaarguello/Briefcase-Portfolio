@@ -78,7 +78,7 @@
     justify-content: start;
     align-items: center;
     padding-top: 8rem;
-    gap: 3rem;
+    gap: 2.5rem;
   }
 
   #button-descargarCV__home{
@@ -107,7 +107,7 @@
   #titulo-fullstack__home {
     font-size: 26px;
     margin-top: 1.5rem;
-    color: rgb(42, 41, 41);
+    color: rgb(128, 120, 120);
     transition: .8s ease;
   }
 
