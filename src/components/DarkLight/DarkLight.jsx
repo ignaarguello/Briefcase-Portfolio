@@ -22,6 +22,7 @@ export default function DarkLight() {
         const flecha = document.querySelector('#flecha-abajo')
         const titulo_stack_skills = document.querySelector('#titulo-stack__Skills')
         const buttons_footer = document.querySelectorAll('.anchor-footer__footer')
+        const titulo_footer = document.querySelector('.titulo-ignacio__footer')
 
         if (theme === false) {
             dispatch(change_true())
@@ -51,6 +52,9 @@ export default function DarkLight() {
             titulo_stack_skills.classList.add('text-black')
             /* Buttons Footer */
             buttons_footer.forEach(e => e.classList.add('button-light__bg-dark'))
+            /* Titulos Footer*/
+            titulo_footer.classList.remove('text-white')
+            titulo_footer.classList.add('text-black')
         }
 
         if (theme === true) {
@@ -81,6 +85,9 @@ export default function DarkLight() {
             titulo_stack_skills.classList.add('text-white')
             /* Buttons Footer */
             buttons_footer.forEach(e => e.classList.add('button-light__bg-dark'))
+             /* Titulos Footer*/
+             titulo_footer.classList.remove('text-black')
+             titulo_footer.classList.add('text-white')
         }
     }
 
