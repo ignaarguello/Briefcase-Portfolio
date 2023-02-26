@@ -12,7 +12,7 @@
   }
 
   #titulo-fullstack__home {
-    color: gray;
+    color: rgb(97, 97, 97);
     font-family: var(--fontRaleway);
     font-size: 16px;
     margin-left: 1.1rem;
@@ -78,6 +78,7 @@
     justify-content: start;
     align-items: center;
     padding-top: 8rem;
+    gap: 3rem;
   }
 
   #button-descargarCV__home{
@@ -104,8 +105,15 @@
   }
 
   #titulo-fullstack__home {
-    font-size: 24px;
+    font-size: 26px;
     margin-top: 1.5rem;
+    color: rgb(42, 41, 41);
+    transition: .8s ease;
+  }
+
+  #titulo-fullstack__home:hover {
+    color: red;
+    cursor: crosshair;
   }
 
   #titulo-acerca__home {
